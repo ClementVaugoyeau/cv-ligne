@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+}
+
+.wrapper {
+    
+    display: grid;
+    grid-template-columns: 1fr 35%;
+    
+    background-image: url('../images/backgroundCodeBlur.jpg');
+    color: rgb(43, 33, 33);
+}
+
+h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 1em;
+    text-align: justify;
+}
+
+.job {
+    
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.Nom {
+    color: rgb(63, 52, 52);
+}
+
+ul {
+    margin: 1em;
+}
+
+p {
+    margin: 1rem;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.date {
+    color: rgb(48, 53, 53);
+    line-height: 1rem;
+}
+
+h3 {
+    color: rgb(63, 63, 177);
+}
+
+.box1 {
+
+    background-color: rgb(195, 209, 195);
+    margin: 1rem;
+    border-radius: 1rem;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box2 /* Coordonees */{
+    
+    background-color: rgb(195, 209, 195);
+    margin: 1rem;
+    border-radius: 1rem;
+    opacity: 0.9;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.coordonnes
+{
+    text-align: center;
+}
+
+.photo {
+    text-align: center;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 800px) {
+    p {
+        
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .wrapper {
+        display: flex;
+        grid-template-columns: 100%;
+        flex-direction: column-reverse;
+      
+        
+    }
+
+
+
+
+}

@@ -1,0 +1,3 @@
+
+let texte = "Langages Informatiques"
+
