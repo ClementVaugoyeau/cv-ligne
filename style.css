@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 35%;
     
-    background-image: url('../images/backgroundCodeBlur.jpg');
+    background-image: url('https://github.com/ClementVaugoyeau/cv-ligne/blob/master/images/backgroundCodeBlur.jpg?raw=true');
     color: rgb(43, 33, 33);
 }
 
