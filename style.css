@@ -219,11 +219,6 @@ box-shadow: inset 0px 8px 60px rgba(0, 0, 0, 0.1),
         
     }
 
-@media (prefers-color-scheme: dark) {
-html {
-filter: invert(100%);
-}
-}
 
 
 }
