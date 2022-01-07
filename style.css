@@ -3,9 +3,13 @@
     src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 }
 
+
+
+
 .wrapper {
     
     display: grid;
+    
     grid-template-columns: 1fr 35%;
     
     background-image: url('https://github.com/ClementVaugoyeau/cv-ligne/blob/master/images/backgroundCodeBlur.jpg?raw=true');
@@ -18,14 +22,29 @@ h2, h3 {
     text-align: justify;
 }
 
+h2.active
+{
+    color: rgb(230, 220, 214);
+
+}
+
+h3.active
+{
+    color: rgb(230, 220, 214);
+}
+
 .job {
     
     font-size: 1.1em;
-    font-weight: lighter;
+    font-weight: bolder;
 }
 
-.Nom {
+#Nom {
     color: rgb(63, 52, 52);
+}
+
+#Nom.active {
+    color: rgb(230, 220, 214);
 }
 
 ul {
@@ -38,29 +57,55 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.date {
+#date {
     color: rgb(48, 53, 53);
     line-height: 1rem;
+}
+
+#date.active {
+    color: rgb(213, 231, 213);
 }
 
 h3 {
     color: rgb(63, 63, 177);
 }
 
-.box1 {
+#box1 {
 
     display: inline;
-    background-color: rgb(195, 209, 195);
+    background-color: rgb(213, 231, 213);
     margin: 1rem;
     border-radius: 1rem;
-    opacity: 0.9;
+    opacity: 0.95;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+i
+{
+    font-size: 1.25rem;
+}
 
-.box2 /* Coordonees */{
+
+#box1.active 
+{
+background-color: rgb(20, 19, 19);
+opacity: 1;
+color: rgb(230, 220, 214);
+transition: 0.5s;
+}
+
+#box2.active
+{
+background-color: rgb(20, 19, 19);
+opacity: 1;
+color: rgb(230, 220, 214);
+transition: 0.5s;
+
+}
+
+#box2 /* Coordonees */{
     
-    background-color: rgb(195, 209, 195);
+    background-color: rgb(213, 231, 213);
     margin: 1rem;
     border-radius: 1rem;
     opacity: 0.9;
@@ -93,11 +138,17 @@ box-shadow: inset 0px 8px 60px rgba(0, 0, 0, 0.1),
             inset 0px 8px 60px rgba(0, 0, 0, 0.1);
 }
 
+#toggle.active
+{
+    background: rgb(192, 192, 192);
+
+
+}
+
 #toggle .indicator
 {
   
   position: absolute;
-  
   width: 1rem;
   height: 1em;
   background: linear-gradient(to bottom, #444, #222);
@@ -113,8 +164,42 @@ box-shadow: inset 0px 8px 60px rgba(0, 0, 0, 0.1),
 
 #toggle.active .indicator
 {
-
+    background: rgb(214, 214, 214);
     left: 1rem;
+    transition: 0.5s;
+}
+
+#toggleLanguages
+{
+position: relative;
+float: right;
+
+width: 2rem;
+height: 1em;
+margin: 1rem;
+border-radius: 1rem;
+background: rgb(238, 222, 222);
+transition: 0.5s;
+box-shadow: inset 0px 8px 60px rgba(0, 0, 0, 0.1),
+            inset 0px 8px 60px rgba(0, 0, 0, 0.1),
+            inset 0px 8px 60px rgba(0, 0, 0, 0.1);
+}
+
+#toggleLanguages .indicator
+{
+    position: absolute;
+    width: 1rem;
+    height: 1em;
+    background: linear-gradient(to bottom, #444, #222);
+    border-radius: 50%;
+    transform: scale(0.9);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1),
+                inset 0 4px 4px rgba(255, 255, 255, 0.2),
+                inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+    transition: 0.5s;
+    cursor: pointer;
+
+
 }
 
 @media screen and (max-width: 800px) {
