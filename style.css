@@ -49,12 +49,14 @@ h3 {
 
 .box1 {
 
+    display: inline;
     background-color: rgb(195, 209, 195);
     margin: 1rem;
     border-radius: 1rem;
     opacity: 0.9;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .box2 /* Coordonees */{
     
@@ -76,6 +78,38 @@ h3 {
     margin-top: 10%;
 }
 
+#toggle
+{
+position: relative;
+float: right;
+width: 2rem;
+height: 1em;
+margin: 1rem;
+border-radius: 1rem;
+background: #222;
+transition: 0.5s;
+box-shadow: inset 0px 8px 60px rgba(0, 0, 0, 0.1),
+            inset 0px 8px 60px rgba(0, 0, 0, 0.1),
+            inset 0px 8px 60px rgba(0, 0, 0, 0.1);
+}
+
+#toggle .indicator
+{
+  
+  position: absolute;
+  
+  width: 1rem;
+  height: 1em;
+  background: linear-gradient(to bottom, #444, #222);
+  border-radius: 50%;
+  transform: scale(0.9);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1),
+              inset 0 4px 4px rgba(255, 255, 255, 0.2),
+              inset 0 -4px 4px rgba(255, 255, 255, 0.2);
+  transition: 0.5s;
+             
+}
+
 @media screen and (max-width: 800px) {
     p {
         
@@ -91,7 +125,11 @@ h3 {
         
     }
 
-
+@media (prefers-color-scheme: dark) {
+html {
+filter: invert(100%);
+}
+}
 
 
 }
