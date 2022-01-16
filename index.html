@@ -31,16 +31,20 @@
 
             <script>
                 
-                const h2 = document.querySelector('h2');
+                
                 const toggle = document.getElementById("toggle");
                 const Nom = document.getElementById('Nom');
                 const date = document.getElementsByClassName('date');
+                const h2 = document.querySelector('h2');
+                const h3 = document.querySelector('h3');
 
                 toggle.onclick = function(){
                     toggle.classList.toggle('active')
                     box1.classList.toggle('active')
                     box2.classList.toggle('active')
                     h2.classList.toggle('active')
+                    h3.classList.toggle('active');
+                    
                     Nom.classList.toggle('active')
                     date.classList.toggle('active')
                 }
@@ -59,66 +63,69 @@
             
             <p id='bio'>A la suite de ma formation .NET je recherche un stage dans le domaine du développement informatique.  </p>
 
-            <h3>Formations et certifications</h3>
+            <h3 >Formations et certifications</h3>
 
             <p class="job">Formation Développeur .NET, Simplon, Lille</p>
-            <p class=date>Janvier 2022 Mars 2022 </p>
+            <p class=date>Janvier 2022 - Mars 2022 </p>
             <p> Cours sur le développement Front-End et apprentissage des langages
                 HTLM<i id='htmlIcon' class='bx bxl-html5'> </i> et CSS<i id='cssIcon' class='bx bxl-css3'></i> 
-                du Framework Reacts<i id='reactIcon' class='bx bxl-react'></i>et outils Sass<i id="sassIcon" class='bx bxl-sass ' ></i>. 
-                Dévelopemenent Développer la partie back-end d’une application web en utilisant le C# et l'écosystème .NET.
+                du Framework Reacts<i id='reactIcon' class='bx bxl-react'></i>et des outils Sass<i id="sassIcon" class='bx bxl-sass ' ></i>. 
+                 Programmation de la partie back-end d’une application web en utilisant le C# et l'écosystème .NET.
             </p> <br>
 
             <p class="job">Cours C# et Visual Studio, ENI, Paris</p>
-            <p class=date>Octobre 2020 À Décembre 2020 </p>
+            <p class=date>Octobre 2020 - Décembre 2020 </p>
             <p> Formation "C# et Les fondamentaux du langage pour le développement .NET". Apprentissage des éléments clés du 
-                langage C# et la programmation orientée objet. Découverte de la plateforme .NET. développement d'applications Windows avec WPF, 
+                langage C# et de la programmation orientée objet. Découverte de la plateforme .NET. Création d'applications Windows avec WPF, 
                 et initiation aux techniques de débogage avec Visual Studio. </p> <br>
 
-            <p class="job">Formation Javacsript, OpenClassrooms, Paris</p>
+            <p class="job">Formation Javascript, OpenClassrooms, Paris</p>
             <p class=date>Août 2020 </p>
-            <p> "Apprendre à programmer avec JavaScript". Utilisation des données et les types de données en Javacsript. 
-                Maitriser la logique d'un programme et écrire du code utile et durable grace aux méthodes. </p> <br>
+            <p> "Apprendre à programmer avec JavaScript". Utilisation des données et les types de données en Javascript. 
+                Maitrise de la logique d'un programme et écriture de code utile et durable grace aux méthodes. </p> <br>
 
             <p class="job">Techniques d’animation 3D et synthèse d’image, Institut Grasset, Montréal</p>
-            <p class=date>Août 2017 à Mai 2019 </p>
+            <p class=date>Août 2017 - Mai 2019 </p>
             <p> Etudes des métiers de l’animation 3D. Formation généraliste, enseignement de la modélisation, du texturing,  du rigging,
-                et de l'animation de modèles 3D.Acoompagné d'un enseignement artistique traditionnelle, dessin, sculpture.</p> <br>
+                et de l'animation de modèles 3D, complétée par un enseignement des techniques du dessin et de la sculpture.</p> <br>
 
             <p class="job">Etudes d'audiovisuel : Montage et Effets Spéciaux, ESEC, Paris </p>
-            <p class=date>Août 2013 à Décembre 2016 </p>
-            <p> Une année préparatoire pour aquérir une culture cinématographique. Puis une première année généraliste d'apprentissage 
-                des différents métiers sur une production audiovisuelle. Et une dernière année de spécialisation en montage et techniques de postproduction. 
+            <p class=date>Août 2013 - Décembre 2016 </p>
+            <p> Année préparatoire d'aquisition de culture cinématographique. Seconde année généraliste d'apprentissage 
+                des différents métiers d'une production audiovisuelle. Troisième année de spécialisation en montage et techniques de postproduction. <br/>
                 Film documentaire de fin d'études en tant que monteur :
-                <a href="https://www.esec.edu/lesfilms/la-infancia-explosiva.html">"la infancia explosiva".</a></p> <br>
+                <a href="https://www.esec.edu/lesfilms/la-infancia-explosiva.html"target="_blank">"la infancia explosiva".</a></p> <br>
 
-            <h3>Expériences professionelles</h3>
+            <h3>Parcours professionel</h3>
 
-            <p class="job">Motion Designer en freelance, VNProd, Paris</p>
-            <p class=date>Mars 2021 </p>
-            <p> Réalisation de billboards publicitaires.
-                Éléments graphique créés avec Photoshop et Illustrator puis animés avec After Effects.<a href="https://youtu.be/SRkFnG79D7w"> Lien d'un billboard réalisé.</a></p> </p> <br>
-
+            <p class="job">Motion Designer en freelance</p>
+            <p class=date>VNProd, Paris, Mars 2021 </p>
+            <p> Réalisation de billboards publicitaires et
+                d'éléments graphiques créés avec Photoshop et Illustrator ensuite animés avec After Effects. <br /> <a
+                    href="https://youtu.be/SRkFnG79D7w" target="_blank"> Exemple de billboard réalisé.</a></p>
+            </p> 
+            <p class=date>Technicolor, Paris, Mars 2020 </p>
+            <p>Création graphique sur Photoshop, puis animations sur After Effects pour des vidéos promotionelles.
+                Montage des élments sur Adobe Premiere. </p> <br>
+            
             <p class="job">Stage 3D Artist Intégrateur Unity, Always Mind Studio, Montréal</p>
-            <p class=date>Novembre 2019 à Mai 2019 </p>
-            <p> Modelisation 3D sur le logiciel Blender, (armes, props). Texturing des modèles sur Photoshop et Subtance Painter.
+            <p class=date>Novembre 2019 - Mai 2019 </p>
+            <p> Modelisation 3D sur le logiciel Blender (armes, props). Texturing des modèles sur Photoshop et Subtance Painter.
                 Intégration et modification d'asets dans le moteur de jeu Unity. </p> <br>
-               
-           <p class="job">Motion Designer, Technicolor, Paris</p>
-           <p class=date>Mars 2020 </p>
-           <p>Création graphique sur Photoshop, puis animations sur After Effects pour des vidéos promotionelles.
-                    Montage des élments sur Adobe Premiere. </p> <br>
+           
 
             <h3>Compétences</h3>
-            
-            <ul> <i class='bx bxl-css3 bx-sm'></i> HTLM, CSS </ul>
-            <ul> <i class='bx bxl-unity bx-sm' ></i></i> Unity, C# </ul>
-            <ul> <i class='bx bxl-blender bx-sm'></i> Modélisation 3D : Blender</ul>
 
-            <h3>Centre d'intérets</h3>
+            <ul> <i class='bx bxs-flag-alt bx-fw' ></i> Langues : Anglais courant, espagnol compris </ul>
+            <ul> <i class='bx bxl-css3 bx-sm bx-fw'></i> HTLM, CSS </ul>
+            <ul> <i class='bx bxl-unity bx-sm bx-fw' ></i></i> Unity, C# </ul>
+            <ul> <i class='bx bxl-blender bx-sm bx-fw'></i> Modélisation 3D : Blender</ul>
 
-            <ul> <i class='bx bxs-film'></i> Cinéma, jeux vidéo. </ul>
-            <ul> <i class='bx bx-tennis-ball'></i> Tennis, cours à pied.</ul>
+            <h3>Centres d'intérets</h3>
+
+            <ul> <i class='bx bxs-film bx-fw'></i> Cinéma : cinéma hongkongais et américain</ul>
+            <ul> <i class='bx bxs-game bx-fw'></i> Jeux vidéo : Hades, Outer Wilds, Fallout</ul>
+            <ul> <i class='bx bx-tennis-ball bx-fw'></i> Tennis</ul>
         </div>
 
         </div>
@@ -139,12 +146,12 @@
             <ul> <i class='bx bxs-home'></i> 79 rue Brûle Maison 59000 Lille </ul>
             <ul> <i class='bx bx-mobile'></i> 07 84 57 52 98 </ul>
             <ul> <i class='bx bxl-gmail'></i> clement.vaugoyeau@gmail.com </ul>
-            <ul> Lien portfolio :
+            
 
-                <ul> <br> <i id= "githubIcon"class='bx bxl-github'></i> <a href="https://github.com/ClementVaugoyeau">GitHub</a> </ul>
+                <ul> <br> <i id= "githubIcon"class='bx bxl-github'></i> <a href="https://github.com/ClementVaugoyeau" target="_blank">GitHub</a> </ul>
                 <ul> <i id= "artsIcon" class='bx bx-cube-alt bx-spin-hover'></i> <a
-                        href="https://www.artstation.com/clement_vaugoyeau">ArtStation</a> </ul>
-            </ul>
+                        href="https://www.artstation.com/clement_vaugoyeau" target="_blank">ArtStation</a> </ul>
+            
            </div>
         </div>
     </div>
