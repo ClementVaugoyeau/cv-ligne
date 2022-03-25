@@ -3,11 +3,21 @@
     src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 }
 
+body {
+    margin: 0rem;
+
+
+}
+
 
 
 .wrapper {
 
     display: grid;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+   
 
     grid-template-columns: 1fr 35%;
 
@@ -15,26 +25,47 @@
     background-color: rgb(61, 61, 61);
 }
 
-h2, h3 {
+h2 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 1rem;
     text-align: justify;
 
 }
 
-h2.active {
-    color: rgb(0, 0, 0);
 
-}
 
-h3 {
+/* h3 {
+    margin: 1rem;
     color: rgb(63, 63, 177);
     font-size: 1.5rem;
+} */
+
+/* h3.active {
+    margin: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+} */
+
+#titleParagraphe {
+    margin: 1rem;
+    color: rgb(63, 63, 177);
+    font-size: 1.5rem;
+    
 }
 
-h3.active {
-    color: rgb(40, 230, 151);
+#titleParagraphe.active {
+    margin: 1rem;
+    color: rgb(126, 126, 182);
+    font-size: 1.5rem;
+    
 }
+
+/* autres id paragraphe fin du style.css autre solution a trouver pour creer plein d id */
+
+
+
+
+
 
 #nom {
     font-size: 2rem;
@@ -134,14 +165,6 @@ i {
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-#box2.active {
-    background-color: rgb(20, 19, 19);
-    opacity: 1;
-    color: rgb(230, 220, 214);
-    transition: 0.5s;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
 #box2 {
 
     background-color: rgb(213, 231, 213);
@@ -153,6 +176,16 @@ i {
 
 
 }
+
+#box2.active {
+    background-color: rgb(20, 19, 19);
+    opacity: 1;
+    color: rgb(230, 220, 214);
+    transition: 0.5s;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
 
 a:link {
     text-decoration: none;
@@ -178,9 +211,24 @@ a:link {
 
 }
 
+#githubIcon.active {
+
+    color: #ffffff;
+    font-size: 1.7rem;
+
+}
+
 #artsIcon {
 
     color: #000000;
+    font-size: 1.7rem;
+    
+
+}
+
+#artsIcon.active {
+
+    color: #ffffff;
     font-size: 1.7rem;
     
 
@@ -268,6 +316,62 @@ a:link {
     top: 20px;
 }
 
+#titleParagraphe2 {
+    margin: 1rem;
+    color: rgb(63, 63, 177);
+    font-size: 1.5rem;
+    
+}
+
+#titleParagraphe2.active {
+    margin: 1rem;
+    color: rgb(126, 126, 182);
+    font-size: 1.5rem;
+    
+}
+
+#titleParagraphe3 {
+    margin: 1rem;
+    color: rgb(63, 63, 177);
+    font-size: 1.5rem;
+    
+}
+
+#titleParagraphe3.active {
+    margin: 1rem;
+    color: rgb(126, 126, 182);
+    font-size: 1.5rem;
+    
+}
+
+#titleParagraphe4 {
+    margin: 1rem;
+    color: rgb(63, 63, 177);
+    font-size: 1.5rem;
+    
+}
+
+#titleParagraphe4.active {
+    margin: 1rem;
+    color: rgb(126, 126, 182);
+    font-size: 1.5rem;
+    
+}
+
+#titleParagraphe5 {
+    margin: 1rem;
+    color: rgb(63, 63, 177);
+    font-size: 1.5rem;
+    
+}
+
+#titleParagraphe5.active {
+    margin: 1rem;
+    color: rgb(126, 126, 182);
+    font-size: 1.5rem;
+    
+}
+
 @media screen and (max-width: 800px) {
     p {
 
@@ -292,6 +396,8 @@ a:link {
       padding-bottom: 2rem;
 
     }
+
+
 
 
 

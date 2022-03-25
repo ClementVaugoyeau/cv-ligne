@@ -32,21 +32,35 @@
             <script>
                 
                 
-                const toggle = document.getElementById("toggle");
-                const Nom = document.getElementById('Nom');
-                const date = document.getElementsByClassName('date');
-                const h2 = document.querySelector('h2');
-                const h3 = document.querySelector('h3');
+                // const toggle = document.getElementById("toggle");
+                // const githubIcon = document.getElementById("githubIcon");
+                
+               
 
+              
+                
+              
                 toggle.onclick = function(){
-                    toggle.classList.toggle('active')
-                    box1.classList.toggle('active')
-                    box2.classList.toggle('active')
-                    h2.classList.toggle('active')
-                    h3.classList.toggle('active');
+
+                    artsIcon.classList.toggle("active");
+                    githubIcon.classList.toggle("active");
+                    toggle.classList.toggle("active");
+                    titleParagraphe.classList.toggle("active");
+                    titleParagraphe2.classList.toggle("active");
+                    titleParagraphe3.classList.toggle("active");
+                    titleParagraphe4.classList.toggle("active");
+                    titleParagraphe5.classList.toggle("active");
                     
-                    Nom.classList.toggle('active')
-                    date.classList.toggle('active')
+                 
+                    
+                    
+                  
+                    box1.classList.toggle('active');
+                    box2.classList.toggle('active');
+                //     Nom.classList.toggle('active')
+                //     date.classList.toggle('active')
+
+               
                 }
             </script>
 
@@ -63,7 +77,7 @@
             
             <p id='bio'>A la suite de ma formation .NET je recherche un stage dans le domaine du développement informatique.  </p>
 
-            <h3 >Formations et certifications</h3>
+            <h3 id ="titleParagraphe" >Formations et certifications</h3>
 
             <p class="job">Formation Développeur .NET, Simplon, Lille</p>
             <p class=date>Janvier 2022 - Mars 2022 </p>
@@ -96,7 +110,7 @@
                 Film documentaire de fin d'études en tant que monteur :
                 <a href="https://www.esec.edu/lesfilms/la-infancia-explosiva.html"target="_blank">"la infancia explosiva".</a></p> <br>
 
-            <h3>Parcours professionel</h3>
+            <h3 id ="titleParagraphe2" >Parcours professionel</h3>
 
             <p class="job">Motion Designer en freelance</p>
             <p class=date>VNProd, Paris, Mars 2021 </p>
@@ -114,14 +128,14 @@
                 Intégration et modification d'asets dans le moteur de jeu Unity. </p> <br>
            
 
-            <h3>Compétences</h3>
+            <h3 id="titleParagraphe3">Compétences</h3>
 
             <ul> <i class='bx bxs-flag-alt bx-fw' ></i> Langues : Anglais courant, espagnol compris </ul>
             <ul> <i class='bx bxl-css3 bx-sm bx-fw'></i> HTLM, CSS </ul>
             <ul> <i class='bx bxl-unity bx-sm bx-fw' ></i></i> Unity, C# </ul>
             <ul> <i class='bx bxl-blender bx-sm bx-fw'></i> Modélisation 3D : Blender</ul>
 
-            <h3>Centres d'intérets</h3>
+            <h3 id=titleParagraphe4>Centres d'intérets</h3>
 
             <ul> <i class='bx bxs-film bx-fw'></i> Cinéma : cinéma hongkongais et américain</ul>
             <ul> <i class='bx bxs-game bx-fw'></i> Jeux vidéo : Hades, Outer Wilds, Fallout</ul>
@@ -141,7 +155,7 @@
 
             <div id='sticky'>
 
-            <h3 class="coordonnes">Coordonnées</h3>
+            <h3  id = titleParagraphe5>Coordonnées</h3>
 
             <ul> <i class='bx bxs-home'></i> 79 rue Brûle Maison 59000 Lille </ul>
             <ul> <i class='bx bx-mobile'></i> 07 84 57 52 98 </ul>
